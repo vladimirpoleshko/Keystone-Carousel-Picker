@@ -257,7 +257,6 @@ frame:SetScript("OnEvent", function(self, event, ...)
         local name = ...
         if name == ADDON_NAME then
             C_ChatInfo.RegisterAddonMessagePrefix(ADDON_PREFIX)
-            math.randomseed(math.floor((GetTime() or 0) * 1000) + time())
             if C_MythicPlus and C_MythicPlus.RequestMapInfo then
                 C_MythicPlus.RequestMapInfo()
             end
