@@ -1,0 +1,12 @@
+## Interface: 120005
+## Title: Keystone Carousel Picker
+## Notes: Spin a roulette to pick a party member's Mythic+ keystone.
+## Author: Vova
+## Version: 0.2
+## SavedVariables: KSR_DB
+## IconTexture: Interface\Icons\INV_Relics_Hourglass
+
+# NOTE: Bump Interface to the Midnight TOC number once it ships.
+
+Core.lua
+UI.lua
